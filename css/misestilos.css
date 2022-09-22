@@ -1,0 +1,101 @@
+div .logotipo {
+  margin-left:600px;
+  
+ }
+ div .logotipo1 {
+  margin-right:500px;
+   
+
+ }
+.slider {
+  margin-left:250px;
+  margin-top:0px;
+}
+
+.ir-arriba {
+	display:inline-block;
+	padding:5px;
+	background:#06A9A3;
+/*	font-size:200px;
+	color:#fff;*/
+	cursor:pointer;
+	position: fixed;
+	bottom:60px;
+	right:20px;
+}
+
+.contenido{
+	width:900px;
+	margin:5px auto;
+	text-align:justify;	
+}
+.contenido p{
+
+	margin-bottom:1em;
+}
+
+ 
+h3#pub-izq1 { 
+   /*width:  100%;*/
+   font-size:1.2em;
+   font:bold;
+ /*  background-color: 	#ADD8E6;*/
+   text-align:justify;    
+}
+h3#pub-izq1 a:link{
+ color:#000080;
+}
+h3#pub-izq1 a:hover{
+ background-color:#b7dbe2;
+}
+
+
+.both {
+  border-collapse: separate;
+  border-spacing: 5px 5px;
+/*  border: 2px solid #000;*/
+  border-color: white;
+
+}
+
+.propaganda1 {
+/*	display:inline-block;*/
+/*	padding:5px;*/
+	background:#fff;
+	position: relative;
+	top:5px;
+	left:50px;
+	border-radius: 1em;
+
+}
+.propaganda2 {
+/* 	padding:5px;*/
+	background:#fff;
+	position: relative;
+	top:15px;
+	left:100px;
+	border-radius: 1em;
+}
+.propaganda3 {
+ /*	padding:5px;*/
+	background:#fff;
+	position: relative;
+ 	top:5px;
+	left:500px;
+	border-radius: 1em;
+}
+.incripcion {
+ 	/*padding:5px;*/
+	background:#fff;
+	position: relative;
+ 	top:10px;
+	left:10px;
+	width:1050px;
+	text-align:center;
+}
+.contenedor{
+	width:80%;
+	max-width:1000px;
+	margin:0 auto;
+	overflow:hidden;
+}
