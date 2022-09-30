@@ -114,6 +114,7 @@
           <ul class="treeview-menu">
             <li><a href="Reglamentos.php"><i class="fa fa-circle-o"></i> Reglamentos del Club</a></li>            
             <li><a href="Reglamentosfvb.php"><i class="fa fa-circle-o"></i> Reglamentos de la FVB</a></li>
+            <li><a href="Estatustosfvb2012.php"><i class="fa fa-circle-o"></i> Estatutos de la FVB(2012)</a></li>
 
           </ul>
         </li>

@@ -106,33 +106,30 @@ desired effect
 		 ?>
 
 		<tr>
-			<td class="mc-title" align="center" width="10%"  >
-   
+			<td class="black" align="center" width="10%"  >
 			 <?php 
 				$n= utf8_decode($mostrar['nombre_jugador']);
 				$c=$mostrar['ced_jugador'];
 				
 		echo "<a href='DatosJugador.php?cedula=$c'>$c</a>";			
 			 ?>
-      
 					
 			</td>
-			<td  class="mr-rating"  align="left">
-       
+			<td class="black" align="left">
 			 <?php 
 				$n= utf8_decode($mostrar['nombre_jugador']);
 				$c=$mostrar['ced_jugador'];
 				
 echo "<a href='DatosJugador.php?cedula=$c'>$n</a>";			
 			 ?>
-				 
+					
 			</td>			
  
  
 			<?php
-			 	echo '  <td   align="center"  >  ' .
+			 	echo '<td class="black" align="center"  >' .
       			'<img src = "data:image/png;base64,' . base64_encode($mostrar['fotojugador']) . '" />'
-      				. ' </td> ';
+      				. '</td>';
 			?>
 			</tr>
 			<?php 
